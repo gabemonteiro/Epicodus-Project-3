@@ -10,7 +10,7 @@ _10/5/2019_
 
 _The page takes an input from a user and returning a range of numbers starting at 0 with specified exceptions._
 
-_*Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+*_Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
@@ -22,7 +22,7 @@ The number 21 should be replaced with "Boop".
 The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 A user should be able to enter a new number and see new results over and over again.
 
-Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5*_
+Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5_*
 
 ## Setup/Installation Requirements
 
