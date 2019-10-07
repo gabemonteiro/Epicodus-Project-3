@@ -10,19 +10,19 @@ _10/5/2019_
 
 _The page takes an input from a user and returning a range of numbers starting at 0 with specified exceptions._
 
-*_Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+_Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:_
 
-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+_Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
-These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
+Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."_
+_These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,_
 
-The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+_The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 The number 21 should be replaced with "Boop".
 The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-A user should be able to enter a new number and see new results over and over again.
+A user should be able to enter a new number and see new results over and over again._
 
-Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5_*
+_Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5_
 
 ## Setup/Installation Requirements
 
