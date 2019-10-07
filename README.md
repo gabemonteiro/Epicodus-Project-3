@@ -28,7 +28,7 @@ _Example: If a user inputs a 5, the program should display a list of values: "0"
 
 #### Browser friendly installation
 
-* _To view you will need to go to https://gabemonteiro.github.io/Epicodus-Project-3/
+* _To view you will need to go to_ https://gabemonteiro.github.io/Epicodus-Project-3/
 
 #### Terminal Friendly Installation (If git has been previously installed)
 * _Currently this webpage is not hosted. To view you will need to type "git clone https://github.com/gabemonteiro/Epicodus-Project-3" into your terminal_
