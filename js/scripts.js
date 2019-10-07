@@ -4,6 +4,10 @@ $(document).ready(function() {
     var number = parseInt($('#input').val())
     var output = []
 
+    if (Number.isNaN(number)) {
+      alert("Does not compute!")
+    }
+
     for (var i = 0; i < number + 1; i += 1) {
       var value = i.toString();
 
