@@ -1,1 +1,25 @@
+.card {
+  width: 600px;
+  margin: 2%;
+  border: 3px solid black;
+  padding: 5px;
+}
 
+body {
+  background-color: #5E5E5E
+}
+
+h1 {
+  font-family: 'Turret Road', cursive;
+}
+
+#result {
+  font-family: 'Turret Road', cursive;
+  color: green;
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
