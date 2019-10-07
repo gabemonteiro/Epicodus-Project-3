@@ -1,20 +1,17 @@
-
-// Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-// Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-// Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
-
-// The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-// The number 21 should be replaced with "Boop".
-// The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-
 $(document).ready(function() {
   $("#submit-button").click(function(event) {
 
-    var value = $('#input').val()
-    var number = parseInt(value)
+    var number = parseInt($('#input').val())
+    var output = []
 
-    $('#result').text(number)
+    for (var i = 0; i < number + 1; i += 1) {
+      var value = i.toString();
 
+    if (value.indexOf('1') !== -1) {
+      output.push('Beep!')
+    }
+
+    $('#result').text(result)
     event.preventDefault()
   });
 });
