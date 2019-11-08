@@ -24,6 +24,12 @@ A user should be able to enter a new number and see new results over and over ag
 
 _Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "I'm Sorry...", 4, 5_
 
+| Behavior | Example Input | Example Output |
+| ----------- | ----------- | ----------- |
+| Numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 1 | 0, Beep! |
+| Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 21 | 0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop! |
+| Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 13 | 0, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that., 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, I'm sorry, Dave. I'm afraid I can't do that. |
+
 ## Setup/Installation Requirements
 
 #### Browser friendly installation
